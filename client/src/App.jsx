@@ -6,13 +6,9 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
-
-
 import Array from "./pages/Array";
-
 import PrivateRoute from "./components/PrivateRoute";
 import Arrayquiz from "./pages/Arrayquiz";
-
 import Layout from "./components/Layout";
 
 
