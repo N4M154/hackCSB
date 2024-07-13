@@ -39,6 +39,8 @@ app.use(cookieParser());
 
 // Serve static files
 app.use(express.static(path.join(__dirname, "client", "build")));
+app.get('*', (req, res) => {
+const indexPath = path.resolve(__dirname, 'client', 'build', 'index.html');})
 
 app.use("/api/user", userRoutes);
 app.use("/api/auth", authRoutes);
@@ -88,8 +90,7 @@ app.listen(3000, () => {
 });
 
 // Uncomment this section if you want to serve your React app from this server
-// app.get('*', (req, res) => {
-//   const indexPath = path.resolve(__dirname, 'client', 'build', 'index.html');
+// 
 //   console.log('Trying to send:', indexPath);
 //   res.sendFile(indexPath);
 // });
