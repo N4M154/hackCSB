@@ -1,9 +1,8 @@
-// src/components/Footer.jsx
 import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-800">
+    <footer className="w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-800 mt-auto">
       <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
         © 2024 CODE_NEST. All Rights Reserved.
       </span>
@@ -12,6 +11,7 @@ export default function Footer() {
           <a
             href="https://github.com/nabila-sheona/Code_Nest.git"
             target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center hover:underline"
           >
             <svg
@@ -36,8 +36,9 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <a
-              href="https://mail.google.com/mail/?view=cm&fs=1&to=namisa.najah.raisa@gmail.com"
+              href="mailto:namisa.najah.raisa@gmail.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:underline flex items-center"
             >
               <svg
@@ -59,6 +60,7 @@ export default function Footer() {
             <a
               href="mailto:email2@example.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:underline flex items-center"
             >
               <svg
@@ -80,6 +82,7 @@ export default function Footer() {
             <a
               href="mailto:email3@example.com"
               target="_blank"
+              rel="noopener noreferrer"
               className="hover:underline flex items-center"
             >
               <svg

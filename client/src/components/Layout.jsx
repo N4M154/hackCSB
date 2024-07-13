@@ -1,4 +1,3 @@
-// src/components/Layout.jsx
 import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import Header from "./Header";
@@ -21,7 +20,7 @@ const Layout = () => {
       <main className="flex-grow">
         <Outlet />
       </main>
-      <Footer /> {/* Add the Footer component here */}
+      <Footer className="mt-auto" /> {/* Ensure Footer sticks to bottom */}
     </div>
   );
 };

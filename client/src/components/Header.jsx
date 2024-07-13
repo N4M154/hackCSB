@@ -16,11 +16,11 @@ export default function Header() {
 
   return (
     <div>
-      <div className="bg-gradient-to-br from-indigo-900 to-sky-400">
+      <div className="bg-gradient-to-br from-purple-700 to-purple-20000">
         <div className="flex justify-between items-center max-w-6xl mx-auto p-4">
           <div className="flex items-center">
             <h2 className="font-bold text-2xl font-serif text-sky-300">
-              CODE_NEST
+            Learn_It
             </h2>
           </div>
 
