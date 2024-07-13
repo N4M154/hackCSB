@@ -1,0 +1,223 @@
+/* Main Container */
+.flex {
+    display: flex;
+  }
+  .flex-col {
+    flex-direction: column;
+  }
+  .items-center {
+    align-items: center;
+  }
+  .justify-center {
+    justify-content: center;
+  }
+  .bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #b3e5fc, #ffffff); /* Light Blue Gradient for Light4 */
+  }
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  .relative {
+    position: relative;
+  }
+  .max-w-screen-lg {
+    max-width: 960px; /* Consistent width */
+  }
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  /* Section Title */
+  .section-title {
+    font-size: 2.5rem; /* Larger font size for prominence */
+    font-weight: bold;
+    text-align: center;
+    color: #0277bd; /* Deep Blue for Light4 */
+    margin-bottom: 2rem;
+  }
+  
+  /* Subsection Title */
+  .subsection-title {
+    font-size: 2rem; /* Slightly larger for prominence */
+    font-weight: bold;
+    color: #039be5; /* Medium Blue for Light4 */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* List */
+  .list-disc {
+    list-style-type: disc;
+  }
+  .list-inside {
+    padding-left: 1.5rem;
+  }
+  
+  /* Introduction and Text */
+  .introduction {
+    text-align: left;
+  }
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Space Animation */
+  .space-animation-container {
+    width: 100%;
+    height: 350px; /* Adjust height as needed */
+    margin-top: 2rem;
+  }
+  
+  /* Adjusted Animation Container */
+  .animation-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Sun */
+  .sun {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    background: radial-gradient(circle, #ffeb3b 50%, #fbc02d 100%);
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Earth Orbit */
+  .earth-orbit {
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 250px;
+    height: 250px;
+    border: 2px dashed #4fc3f7;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    animation: orbit 10s infinite linear;
+  }
+  
+  /* Earth */
+  .earth {
+    position: absolute;
+    top: 2%;
+    left: 20%;
+    width: 40px;
+    height: 40px;
+    background: #039be5;
+    border-radius: 50%;
+    transform: translateX(-50%);
+   
+  }
+  
+  /* Moon Orbit */
+  .moon-orbit {
+    position: absolute;
+    top: -60%;
+    left: -60%;
+    width: 90px;
+    height: 90px;
+    border: 2px dashed #90a4ae;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    animation: orbit 2.5s infinite linear;
+  }
+  
+  /* Moon */
+  .moon {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background: #9e9e9e;
+    border-radius: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* Keyframes for Orbit */
+  @keyframes orbit {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Calculation */
+  .calculation {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .answer-input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+    width: 300px;
+  }
+  .check-answer-button {
+    background-color: #039be5;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .check-answer-button:hover {
+    background-color: #0277bd;
+  }
+  
+  /* Explanation */
+  .explanation {
+    margin-top: 2rem;
+  }
+  
+  /* Space Facts */
+  .space-facts {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  /* Questions */
+  .questions {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .next-page-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .next-page-button:hover {
+    background-color: #388e3c;
+  }
+  
+  .download-pdf-button {
+    background-color: #1976d2;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .download-pdf-button:hover {
+    background-color: #1565c0;
+  }
+  

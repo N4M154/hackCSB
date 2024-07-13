@@ -1,0 +1,191 @@
+/* Light3.css */
+
+/* Main Container */
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #e0bbf7, #ffffff); /* Lavender gradient for Light3 */
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.relative {
+  position: relative;
+}
+.max-w-screen-lg {
+  max-width: 960px; /* Consistent width */
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.mt-8 {
+  margin-top: 2rem;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-align: center;
+  color: #6c5b7b; /* Dark Lavender for Light3 */
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.subsection-title {
+  font-size: 2rem; /* Slightly larger for prominence */
+  font-weight: bold;
+  color: #9a8c98; /* Medium Lavender for Light3 */
+  margin-bottom: 1.5rem;
+}
+
+/* Light Journey */
+.light-journey {
+  margin-bottom: 2rem;
+}
+
+/* Light Behavior */
+.light-behavior {
+  margin-bottom: 2rem;
+}
+
+/* Seeing Things */
+.seeing-things {
+  margin-bottom: 2rem;
+}
+
+/* Comparison Table */
+.comparison-table {
+  width: 100%;
+  border-spacing: 0;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem; /* Rounded corners */
+  overflow: hidden; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.comparison-table th,
+.comparison-table td {
+  border: 1px solid #d1c4e9; /* Light Lavender Border */
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.comparison-table th {
+  background-color: #e0bbf7; /* Light Lavender Header Background */
+  color: #6c5b7b; /* Dark Lavender Text */
+  font-weight: bold;
+}
+
+.comparison-table td {
+  background-color: #ffffff; /* White Background */
+  color: #333333; /* Dark Text Color */
+}
+
+/* Questions */
+.questions ul {
+  margin-left: 1.5rem;
+  color: #6c5b7b; /* Dark Lavender for list items */
+}
+
+/* Buttons */
+.next-page-button {
+  background-color: #9a8c98; /* Medium Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem; /* Larger padding for consistency */
+  border: none;
+  border-radius: 0.5rem; /* Consistent border-radius */
+  cursor: pointer;
+  font-size: 1.2rem; /* Larger font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.download-pdf-button {
+  background-color: #6c5b7b; /* Dark Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem; /* Larger padding for consistency */
+  border: none;
+  border-radius: 0.5rem; /* Consistent border-radius */
+  cursor: pointer;
+  font-size: 1.2rem; /* Larger font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.next-page-button:hover,
+.download-pdf-button:hover {
+  opacity: 0.9;
+}
+
+/* Additional Styling */
+.light-journey img,
+.light-behavior img,
+.seeing-things img {
+  border-radius: 0.5rem; /* Added border-radius to images */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+}
+
+/* Positioning for Buttons */
+.absolute {
+  position: absolute;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.download-pdf-button {
+  background-color: #6c5b7b; /* Dark Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-pdf-button:hover {
+  background-color: #5a4c6e; /* Darker Lavender */
+}
+
+.next-page-button {
+  background-color: #9a8c98; /* Medium Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.next-page-button:hover {
+  background-color: #7a6b7e; /* Darker Lavender */
+}

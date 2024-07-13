@@ -1,0 +1,30 @@
+/* Light.css */
+
+.light-circle {
+  width: 200px;
+  height: 200px;
+  border: 2px solid yellow;
+  border-radius: 50%;
+  position: relative;
+  animation: light-pulse 2s infinite ease-in-out;
+}
+
+.light-circle.off {
+  border-color: gray; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust as needed */
+}
+
+@keyframes light-pulse {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.7;
+  }
+}
