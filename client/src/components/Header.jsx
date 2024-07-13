@@ -25,19 +25,17 @@ export default function Header() {
           </div>
 
           <ul className="flex gap-4 text-sky-200">
-            <li>
-              <Link to="/upload-and-compile">Self Study</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-
             
             {currentUser && (
               <li>
                 <Link to="/Home">Home</Link>
               </li>
+
+              
             )}
+            <li>
+              <Link to="/about">About</Link>
+            </li>
             <li>
               <Link to="/profile">
                 {currentUser ? (
