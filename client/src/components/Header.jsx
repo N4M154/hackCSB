@@ -32,47 +32,7 @@ export default function Header() {
               <Link to="/about">About</Link>
             </li>
 
-            {currentUser && (
-              <li className="relative">
-                <button
-                  onClick={toggleDropdown}
-                  className="text-sky-200 hover:text-white focus:outline-none"
-                >
-                  Course Catalogue
-                </button>
-                {isDropdownOpen && (
-                  <ul className="absolute top-full left-0 bg-sky-800 text-sky-200 rounded shadow-md py-2">
-                    <li>
-                      <Link
-                        to="/c-foreword"
-                        className="block px-4 py-2 hover:bg-sky-700"
-                        onClick={closeDropdown}
-                      >
-                        C
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/cplusplus"
-                        className="block px-4 py-2 hover:bg-sky-700"
-                        onClick={closeDropdown}
-                      >
-                        C++
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        to="/csharp"
-                        className="block px-4 py-2 hover:bg-sky-700"
-                        onClick={closeDropdown}
-                      >
-                        C#
-                      </Link>
-                    </li>
-                  </ul>
-                )}
-              </li>
-            )}
+            
             {currentUser && (
               <li>
                 <Link to="/Home">Home</Link>
