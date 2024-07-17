@@ -2,14 +2,14 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer className="w-full p-4 bg-white border-t border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-900 dark:border-gray-800 mt-auto">
-      <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-        © 2024 CODE_NEST. All Rights Reserved.
+    <footer className="w-full p-4 bg-white border-t-2 border-gray-200 shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-teal-900 dark:border-gray-700">
+      <span className="text-sm text-black sm:text-center dark:text-gray-100 font-semibold">
+        © 2024 PhysixLab. All Rights Reserved.
       </span>
       <div className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
         <li className="mr-4 flex item-center">
           <a
-            href="https://github.com/nabila-sheona/Code_Nest.git"
+            href="https://github.com/N4M154/hackCSB.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center hover:underline"
@@ -36,7 +36,7 @@ export default function Footer() {
           </div>
           <div className="flex items-center">
             <a
-              href="mailto:namisa.najah.raisa@gmail.com"
+              href="mailto:email1@example.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline flex items-center"
@@ -97,7 +97,29 @@ export default function Footer() {
               >
                 <path d="M23 2V6L20 9L12 6L4 9L1 6V2M1 6L12 13L23 6M23 15V19L20 22H4L1 19V15" />
               </svg>
-              Faiza Maliat
+              Antara Arifa Mullick
+            </a>
+          </div>
+          <div className="flex items-center ml-4">
+            <a
+              href="mailto:email3@example.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline flex items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 mr-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M23 2V6L20 9L12 6L4 9L1 6V2M1 6L12 13L23 6M23 15V19L20 22H4L1 19V15" />
+              </svg>
+              Tasnia Anower Medha
             </a>
           </div>
         </div>
