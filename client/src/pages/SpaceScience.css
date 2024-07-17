@@ -1,0 +1,716 @@
+/* SpaceScience.css */
+
+/* Overall Page Styling spaceScience */
+.spaceScience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #adfaff, #e3f2fd); /* Light Blue Gradient */
+  min-height: 100vh;
+  position: relative;
+  }
+  
+  /* Content Section */
+  .spaceScience-content {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1rem;
+    margin-top: 2rem;
+  }
+  
+  /* Section Title */
+  .spaceScience-section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0a4c55; /* Dark Blue */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Subsection Title */
+  .spaceScience-subsection-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #37979c; /* Light Blue */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Download PDF Button */
+  .spaceScience-download-button {
+    background-color: #FF4136; /* Red */
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spaceScience-download-button:hover {
+    background-color: #FF851B; /* Orange */
+  }
+  
+  /* Next Page Button */
+  .spaceScience-next-page-button {
+    background-color: #2ECC40; /* Green */
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .spaceScience-next-page-button:hover {
+    background-color: #188cc2; 
+  }
+  
+  /* History Section */
+  .spaceScience-history-section {
+    margin-top: 2rem;
+  }
+  
+  .spaceScience-history-text {
+    width: calc(82% - 1rem); /* Adjust width for better spacing */
+    margin: 1.5rem;
+    margin-bottom: 2rem; /* Increased margin between boxes */
+    padding: 1rem;
+    background-color: #81dde3; /* Light Gray */
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Ensuring text size and color consistency */
+  .spaceScience-history-text p {
+    font-size: 1.1rem;
+    color: #111111;
+  }
+  
+  /* Text alignment classes */
+  .spaceScience-left {
+    margin-right: auto;
+  }
+  
+  .spaceScience-right {
+    margin-left: auto;
+  }
+  
+  .spaceScience-center {
+    margin: 0 auto;
+  }
+  
+  /* Notable Figures */
+  .spaceScience-notable-figures {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .spaceScience-figure {
+    text-align: center;
+    margin: 1.5rem;
+    margin-bottom: 2rem; /* Increased margin between boxes */
+    padding: 1rem;
+    background-color: #7ac9d7; /* Light Gray */
+    border-radius: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .spaceScience-figure:hover {
+    transform: scale(1.05);
+  }
+  
+  .spaceScience-figure-image {
+    width: 100%;
+    border-radius: 0.75rem;
+  }
+  
+  .spaceScience-figure-caption {
+    margin-top: 1rem;
+  }
+  
+  .spaceScience-figure-name {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #0074D9; /* Bright Blue */
+  }
+  
+  .spaceScience-figure-description {
+    font-size: 1rem;
+    color: #111111;
+  }
+
+
+  /* Solar System Animation Styles */
+.ss-flex {
+  display: flex;
+}
+.ss-flex-col {
+  flex-direction: column;
+}
+.ss-items-center {
+  align-items: center;
+}
+.ss-justify-center {
+  justify-content: center;
+}
+.ss-bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #b3e5fc, #ffffff); /* Light Blue Gradient for Solar System */
+}
+.ss-min-h-screen {
+  min-height: 100vh;
+}
+.ss-relative {
+  position: relative;
+}
+.ss-max-w-screen-lg {
+  max-width: 960px; /* Consistent width */
+}
+.ss-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.ss-p-4 {
+  padding: 1rem;
+}
+
+/* Section Title */
+.ss-section-title {
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-align: center;
+  color: #0277bd; /* Deep Blue for Solar System */
+  margin-bottom: 2rem;
+}
+
+
+/* Section Title */
+.ss-section-title {
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-align: center;
+  color: #0277bd; /* Deep Blue for Solar System */
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.ss-section-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2ca98c; 
+  margin-bottom: 1.5rem;
+}
+
+/* Description Section */
+.ss-description-section {
+  margin-top: 2rem;
+}
+
+/* Ensuring text size and color consistency */
+.ss-description-text {
+  width: 100%; /* Full width for text */
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #bef6f0; /* Light Gray Background */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(13, 89, 164, 0.1);
+}
+
+/* Text alignment classes */
+.ss-left {
+  text-align: left;
+}
+
+.ss-right {
+  text-align: right;
+}
+
+.ss-center {
+  text-align: center;
+}
+
+/* Additional styling for paragraphs */
+.ss-description-text p {
+  font-size: 1.1rem;
+  color: #333333; /* Dark Gray Text */
+  margin-bottom: 1rem;
+}
+
+/* Styling for strong tags */
+.ss-description-text strong {
+  font-weight: bold;
+}
+
+/* Space Animation */
+.ss-space-animation-container {
+  width: 900px;
+  height: 700px; /* Adjust height as needed */
+  margin-top: 2rem;
+}
+
+/* Adjusted Animation Container */
+.ss-animation-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Sun */
+.ss-sun {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, #ffeb3b 50%, #fbc02d 100%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Orbit */
+.ss-orbit {
+  position: absolute;
+  top: 12%;
+  left: 32%;
+  border: 2px dashed #4fc3f7;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit 10s infinite linear;
+}
+
+/* Planet */
+.ss-planet {
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #039be5;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+/* Keyframes for Orbit */
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* BriefHistory.css */
+
+/* Overall Page Styling */
+.briefHistory-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #fdcd7f, #fff59d); /* Yellow Gradient */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Content Section */
+.briefHistory-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  color: #14574c; /* Dark Pink Text */
+}
+
+/* Section Title */
+.briefHistory-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #155342; /* Dark Pink */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.briefHistory-subsection-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2f8a7b; /* Dark Pink */
+  margin-bottom: 1.5rem;
+}
+
+/* History Section */
+.briefHistory-history-section {
+  margin-top: 2rem;
+}
+
+.briefHistory-history-text {
+  width: calc(82% - 1rem); /* Adjust width for better spacing */
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #bbf8ef; /* Light Pink Background */
+  border-radius: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensuring text size and color consistency */
+.briefHistory-history-text p {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Text alignment classes */
+.briefHistory-left {
+  margin-right: auto;
+}
+
+.briefHistory-right {
+  margin-left: auto;
+}
+
+.briefHistory-center {
+  margin: 0 auto;
+}
+
+/* Buttons */
+.briefHistory-download-button,
+.briefHistory-next-page-button {
+  background-color: #1ebde9; /* Medium Pink */
+  color: #ffffff; /* White Text */
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.briefHistory-download-button:hover,
+.briefHistory-next-page-button:hover {
+  background-color: #ffa726; /* Darker Orange on Hover */
+}
+
+/* Positioning buttons */
+.absolute {
+  position: absolute;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+/* CoreOfEarth.css */
+
+/* Overall Page Styling */
+.coreOfEarth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #90caf9, #e3f2fd); /* Light Blue Gradient */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Content Section */
+.coreOfEarth-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  color: #1565c0; /* Dark Blue Text */
+}
+
+/* Section Title */
+.coreOfEarth-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #17815d; /* Dark Blue */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.coreOfEarth-subsection-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #25b38f; /* Light Blue */
+  margin-bottom: 1.5rem;
+}
+
+/* History Section */
+.coreOfEarth-history-section {
+  margin-top: 2rem;
+}
+
+.coreOfEarth-history-text {
+  width: calc(82% - 1rem); /* Adjust width for better spacing */
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #9be1e4; /* Light Blue Background */
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensuring text size and color consistency */
+.coreOfEarth-history-text p {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Text alignment classes */
+.coreOfEarth-left {
+  margin-right: auto;
+}
+
+.coreOfEarth-right {
+  margin-left: auto;
+}
+
+.coreOfEarth-center {
+  margin: 0 auto;
+}
+
+/* Buttons */
+.coreOfEarth-download-button,
+.coreOfEarth-next-page-button {
+  background-color: #64b5f6; /* Medium Blue */
+  color: #ffffff; /* White Text */
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.coreOfEarth-download-button:hover,
+.coreOfEarth-next-page-button:hover {
+  background-color: #42a5f5; /* Darker Blue on Hover */
+}
+
+/* Positioning buttons */
+.absolute {
+  position: absolute;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+ /* Notable Figures */
+ .core-notable-figures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.core-figure {
+  text-align: center;
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #DDDDDD; /* Light Gray */
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.core-figure:hover {
+  transform: scale(1.05);
+}
+
+.core-figure-image {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.core-figure-caption {
+  margin-top: 1rem;
+}
+
+.core-figure-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #0074D9; /* Bright Blue */
+}
+
+.core-figure-description {
+  font-size: 1rem;
+  color: #111111;
+}
+/* Telescope.css */
+
+/* Overall Page Styling */
+.telescope-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #e4f2fc, #bbf8cd); /* Light Pink Gradient */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Content Section */
+.telescope-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  margin-top: 2rem;
+  color: #167064; /* Dark Pink Text */
+}
+
+/* Section Title */
+.telescope-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #0e564e; /* Dark Pink */
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.telescope-subsection-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2e856b; /* Dark Pink */
+  margin-bottom: 1.5rem;
+}
+
+/* History Section */
+.telescope-history-section {
+  margin-top: 2rem;
+}
+
+.telescope-history-text {
+  width: calc(82% - 1rem); /* Adjust width for better spacing */
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #bbf8f8; /* Light Pink Background */
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensuring text size and color consistency */
+.telescope-history-text p {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Text alignment classes */
+.telescope-left {
+  margin-right: auto;
+}
+
+.telescope-right {
+  margin-left: auto;
+}
+
+.telescope-center {
+  margin: 0 auto;
+}
+
+/* Buttons */
+.telescope-download-button,
+.telescope-next-page-button {
+  background-color: #1ebde9; /* Medium Pink */
+  color: #84ede8; /* White Text */
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.telescope-download-button:hover,
+.telescope-next-page-button:hover {
+  background-color: #188cc2; /* Darker Pink on Hover */
+}
+
+/* Positioning buttons */
+.absolute {
+  position: absolute;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-4 {
+  left: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+/* Notable Figures */
+.telescope-notable-figures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.telescope-figure {
+  text-align: center;
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #8be7ee; /* Light Gray */
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.telescope-figure:hover {
+  transform: scale(1.05);
+}
+
+.telescope-figure-image {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.telescope-figure-caption {
+  margin-top: 1rem;
+}
+
+.telescope-figure-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #1a785f; /* Bright Pink */
+}
+
+.telescope-figure-description {
+  font-size: 1rem;
+  color: #111111;
+}

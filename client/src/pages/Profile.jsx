@@ -1,5 +1,7 @@
 import { useSelector } from "react-redux";
 import { useRef, useState, useEffect } from "react";
+import peenImage from "../images/p.jpg";
+
 import {
   getDownloadURL,
   getStorage,
@@ -84,8 +86,6 @@ export default function Profile() {
   };
 
   const totalLevels = 10;
-
-  
 
   useEffect(() => {
     if (currentUser && currentUser.username) {
@@ -211,108 +211,124 @@ export default function Profile() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-gradient-to-br from-sky-300 to-white-500 min-h-screen">
-      <div className="absolute left-7 top-1/2 transform -translate-y-1/2  bg-gradient-to-br from-indigo-900 to-sky-400 text-white rounded-lg shadow-lg w-64">
-        
-      </div>
-
-      <div className="w-full md:w-2/3 p-2.5 ml-auto">
-        <h1 className="text-3xl font-semibold text-center my-7">Profile</h1>
-        <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-          <input
-            type="file"
-            ref={fileRef}
-            hidden
-            accept="image/*"
-            onChange={(e) => setImage(e.target.files[0])}
-          />
-
-          <img
-            src={formData.profilePicture || currentUser.profilePicture}
-            alt="profile"
-            className="h-24 w-24 self-center cursor-pointer rounded-full object-cover mt-2"
-            onClick={() => fileRef.current.click()}
-          />
-          <p className="text-sm self-center">
-            {imageError ? (
-              <span className="text-red-700">
-                Error uploading image (file size must be less than 2 MB)
-              </span>
-            ) : imagePercent > 0 && imagePercent < 100 ? (
-              <span className="text-slate-700">{`Uploading: ${imagePercent} %`}</span>
-            ) : imagePercent === 100 ? (
-              <span className="text-green-700">
-                Image uploaded successfully
-              </span>
-            ) : (
-              ""
-            )}
-          </p>
-          <textarea
-            value={bio}
-            onChange={handleBioChange}
-            placeholder="Bio (100 words limit)"
-            className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
-          />
-          <input
-            defaultValue={currentUser.username}
-            type="text"
-            id="username"
-            placeholder="Username"
-            className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
-            onChange={handleChange}
-            readOnly
-          />
-          <input
-            defaultValue={currentUser.email}
-            type="email"
-            id="email"
-            placeholder="Email"
-            className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
-            onChange={handleChange}
-            readOnly
-          />
-          <input
-            type="password"
-            id="newPassword"
-            value={newPassword}
-            onChange={handleChangePassword}
-            placeholder="New password"
-            className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
-          />
-
-          <input
-            type="password"
-            id="currentPassword"
-            value={currentPassword}
-            onChange={handleChangePassword}
-            placeholder="Current password"
-            className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
-          />
-
-          <button className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-50 disabled:opacity-80">
-            {loading ? "Loading..." : "Update"}
-          </button>
-        </form>
-
-        <div className="flex justify-between mt-5">
-          <span
-            onClick={handleDeleteAccount}
-            className="text-red-700 cursor-pointer font-semibold"
-          >
-            Delete Account
-          </span>
-          <span
-            onClick={handleSignOut}
-            className="text-red-700 cursor-pointer font-semibold"
-          >
-            Sign Out
-          </span>
+  
+  <div className="flex flex-col md:flex-row  min-h-screen">
+      <div className="w-full md:w-1/2 bg-gradient-to-br from-indigo-900 to-sky-400 text-white flex items-center justify-center relative">
+        <img
+          src={peenImage} // Replace this with the path to your image
+          alt="Background"
+          className="absolute inset-0 w-full h-full object-cover opacity-70"
+        />
+        <div className="relative p-8 bg-black bg-opacity-50 rounded-lg">
+          <h2 className="text-xl font-semibold mb-5">
+            Manage your account settings and personal information.
+          </h2>
+          <p className="text-lg"></p>
         </div>
-        <p className="text-red-700 mt-5">{error && "something went wrong!"}</p>
-        <p className="text-green-700 mt-5">
-          {updateSuccess && "User is updated successfully"}
-        </p>
+      </div>
+      <div className="w-full md:w-1/2 bg-white flex items-center justify-center">
+        <div className="p-8 max-w-md w-full">
+          <h1 className="text-3xl font-semibold text-center my-7">Profile</h1>
+          <form onSubmit={handleSubmit} className="flex flex-col gap-4">
+            <input
+              type="file"
+              ref={fileRef}
+              hidden
+              accept="image/*"
+              onChange={(e) => setImage(e.target.files[0])}
+            />
+
+            <img
+              src={formData.profilePicture || currentUser.profilePicture}
+              alt="profile"
+              className="h-24 w-24 self-center cursor-pointer rounded-full object-cover mt-2"
+              onClick={() => fileRef.current.click()}
+            />
+            <p className="text-sm self-center">
+              {imageError ? (
+                <span className="text-red-700">
+                  Error uploading image (file size must be less than 2 MB)
+                </span>
+              ) : imagePercent > 0 && imagePercent < 100 ? (
+                <span className="text-slate-700">{`Uploading: ${imagePercent} %`}</span>
+              ) : imagePercent === 100 ? (
+                <span className="text-green-700">
+                  Image uploaded successfully
+                </span>
+              ) : (
+                ""
+              )}
+            </p>
+            <textarea
+              value={bio}
+              onChange={handleBioChange}
+              placeholder="Bio (100 words limit)"
+              className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
+            />
+            <input
+              defaultValue={currentUser.username}
+              type="text"
+              id="username"
+              placeholder="Username"
+              className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
+              onChange={handleChange}
+              readOnly
+            />
+            <input
+              defaultValue={currentUser.email}
+              type="email"
+              id="email"
+              placeholder="Email"
+              className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
+              onChange={handleChange}
+              readOnly
+            />
+            <input
+              type="password"
+              id="newPassword"
+              value={newPassword}
+              onChange={handleChangePassword}
+              placeholder="New password"
+              className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
+            />
+
+            <input
+              type="password"
+              id="currentPassword"
+              value={currentPassword}
+              onChange={handleChangePassword}
+              placeholder="Current password"
+              className="bg-slate-100 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-sky-500"
+            />
+
+            <button className="bg-slate-700 text-white p-3 rounded-lg uppercase hover:opacity-50 disabled:opacity-80">
+              {loading ? "Loading..." : "Update"}
+            </button>
+          </form>
+
+          <div className="flex justify-between mt-5">
+            <span
+              onClick={handleDeleteAccount}
+              className="text-red-700 cursor-pointer font-semibold"
+              style={{ border: "none" }}
+            >
+              Delete Account
+            </span>
+            <span
+              onClick={handleSignOut}
+              className="text-red-700 cursor-pointer font-semibold"
+              style={{ border: "none" }}
+            >
+              Sign Out
+            </span>
+          </div>
+          <p className="text-red-700 mt-5">
+            {error && "something went wrong!"}
+          </p>
+          <p className="text-green-700 mt-5">
+            {updateSuccess && "User is updated successfully"}
+          </p>
+        </div>
       </div>
     </div>
   );
