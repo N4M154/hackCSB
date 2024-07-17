@@ -1,52 +1,51 @@
 import React from "react";
-import Tilt from "react-parallax-tilt";
 export default function About() {
   return (
-    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-indigo-900 to-sky-400 text-white">
+    <div className="flex flex-col items-center min-h-screen bg-gradient-to-br from-green-200 to-white-500 text-white">
       <div className="max-w-screen-lg mx-auto px-4">
         <br></br>
-        <h1 className="text-3xl font-bold mb-8 text-sky-400 text-center">
-          ABOUT CODE_NEST
+        <h1 className="text-3xl font-bold mb-8 text-teal-600 underline text-center">
+          ABOUT PhysixLab
         </h1>
         <div class="grid grid-cols-2 gap-4 mx-4">
-          <div class="box bg-gray-900 border border-gray-800 rounded-lg p-8 text-justify bg-sky-400">
+          <div class="box bg-gray-900 border border-gray-800 rounded-lg p-8 text-justify bg-sky-100">
             <h1 className="text-2xl font-semibold mb-8 text-sky-800">
               Motivation behind the project:
             </h1>
             <p className="text-indigo-900">
-              CODE_NEST is the culmination of our efforts in Software Project
-              Lab II, devised to cater to the needs of aspiring programmers.
+              Welcome to Physixlab, where we've crafted an engaging platform to
+              make physics learning fun and accessible for everyone.
               <br></br>
               <br></br>
-              Recognizing the challenges we faced during our own learning
-              journeys—scattered resources, fragmented knowledge—we endeavored
-              to create a comprehensive solution. Our platform serves as a
-              centralized repository for fundamental programming language
-              materials, designed to streamline the learning process. <br></br>
-              <br></br>From tutorials to quizzes, we offer a cohesive learning
-              experience aimed at enhancing your programming proficiency. Join
-              us on CODE_NEST, where learning meets convenience, and embark on
-              your journey to mastery.
+              Inspired by our own challenges in grasping physics concepts, we've
+              created a unified solution. PhysiLearn serves as your go-to hub
+              for all things physics, offering a seamless learning experience.{" "}
+              <br></br>
+              <br></br>From interactive tutorials to captivating quizzes, our
+              platform is designed to simplify complex topics and ignite your
+              curiosity. Join us on PhysiLearn, where learning physics is both
+              enjoyable and effortless. Start your journey to mastering physics
+              today!
             </p>
           </div>
-          <div class="box bg-gray-900 border border-gray-800 rounded-lg p-8 text-justify bg-sky-400">
+          <div class="box bg-gray-900 border border-gray-800 rounded-lg p-8 text-justify bg-sky-100">
             <h1 className="text-2xl font-semibold mb-8 text-sky-800">
               About us:
             </h1>
             <p className="text-indigo-900">
-              We are currently studying in the 4th semester of software
-              engineering in&nbsp;&nbsp;
+              We are currently studying BSc in Software Engineering under the
+              Department of Computer Science and Engineering in&nbsp;&nbsp;
               <text className="font-semibold text-white-500">
                 Islamic University of Technology.
               </text>
             </p>
             <br></br>
-            <p className="text-indigo-900">Nabila Sheona(210042111)</p>
-            <p className="text-indigo-900">Namisa Najah(210042112)</p>
-            <p className="text-indigo-900">Faiza Maliat(210042163)</p>
+            <p className="text-indigo-900">Nabila Sheona</p>
+            <p className="text-indigo-900">Namisa Najah Raisa</p>
+            <p className="text-indigo-900">Antara Arifa Mullick</p>
+            <p className="text-indigo-900">Tasnia Anower Medha</p>
           </div>
         </div>
-     
       </div>
     </div>
   );

@@ -28,3 +28,1168 @@
     opacity: 0.7;
   }
 }
+/* Light2.css */
+
+/* Overall Page Styling light2 */
+.light2-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #f8addb, #ffffff); /* Light Pink Gradient */
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Content Section */
+.light2-content {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+
+/* Section Title */
+.light2-section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #178562;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.light2-subsection-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #518f6b;
+  margin-bottom: 1.5rem;
+}
+
+/* Download PDF Button */
+.light2-download-button {
+  background-color: #ffd700;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.light2-download-button:hover {
+  background-color: #ffcc00;
+}
+
+/* Next Page Button */
+.light2-next-page-button {
+  background-color: #33ffc2;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.light2-next-page-button:hover {
+  background-color: #00ff73;
+}
+
+/* History Section */
+.light2-history-section {
+  margin-top: 2rem;
+}
+
+.light2-history-text {
+  width: calc(82% - 1rem); /* Adjust width for better spacing */
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #75d7a9;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensuring text size and color consistency */
+.light2-history-text p {
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Text alignment classes */
+.light2-left {
+  margin-right: auto;
+}
+
+.light2-right {
+  margin-left: auto;
+}
+
+.light2-center {
+  margin: 0 auto;
+}
+
+/* Notable Figures */
+.light2-notable-figures {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.light2-figure {
+  text-align: center;
+  margin: 1.5rem;
+  margin-bottom: 2rem; /* Increased margin between boxes */
+  padding: 1rem;
+  background-color: #8adbd2;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.light2-figure:hover {
+  transform: scale(1.05);
+}
+
+.light2-figure-image {
+  width: 100%;
+  border-radius: 0.75rem;
+}
+
+.light2-figure-caption {
+  margin-top: 1rem;
+}
+
+.light2-figure-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #1d4844;
+}
+
+.light2-figure-description {
+  font-size: 1rem;
+  color: #333333;
+}
+/* Light3.css */
+
+/* Main Container */
+.l3-flex {
+  display: flex;
+}
+.l3-flex-col {
+  flex-direction: column;
+}
+.l3-items-center {
+  align-items: center;
+}
+.l3-justify-center {
+  justify-content: center;
+}
+.l3-bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #e0bbf7, #ffffff); /* Lavender gradient for Light3 */
+}
+.l3-min-h-screen {
+  min-height: 100vh;
+}
+.l3-relative {
+  position: relative;
+}
+.l3-max-w-screen-lg {
+  max-width: 960px; /* Consistent width */
+}
+.l3-mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.l3-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.l3-mt-8 {
+  margin-top: 2rem;
+}
+
+/* Section Title */
+.l3-section-title {
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-align: center;
+  color: #6c5b7b; /* Dark Lavender for Light3 */
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.l3-subsection-title {
+  font-size: 2rem; /* Slightly larger for prominence */
+  font-weight: bold;
+  color: #9a8c98; /* Medium Lavender for Light3 */
+  margin-bottom: 1.5rem;
+}
+
+/* Light Journey */
+.l3-light-journey {
+  margin-bottom: 2rem;
+}
+
+/* Light Behavior */
+.l3-light-behavior {
+  margin-bottom: 2rem;
+}
+
+/* Seeing Things */
+.l3-seeing-things {
+  margin-bottom: 2rem;
+}
+
+/* Comparison Table */
+.l3-comparison-table {
+  width: 100%;
+  border-spacing: 0;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem; /* Rounded corners */
+  overflow: hidden; /* Rounded corners */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.l3-comparison-table th,
+.l3-comparison-table td {
+  border: 1px solid #c4e7e9; /* Light Lavender Border */
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.l3-comparison-table th {
+  background-color: #bbf7c0; /* Light Lavender Header Background */
+  color: #6c5b7b; /* Dark Lavender Text */
+  font-weight: bold;
+}
+
+.l3-comparison-table td {
+  background-color: #ffffff; /* White Background */
+  color: #333333; /* Dark Text Color */
+}
+
+/* Questions */
+.l3-questions ul {
+  margin-left: 1.5rem;
+  color: #6c5b7b; /* Dark Lavender for list items */
+}
+
+/* Buttons */
+.l3-next-page-button {
+  background-color: #9a8c98; /* Medium Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem; /* Larger padding for consistency */
+  border: none;
+  border-radius: 0.5rem; /* Consistent border-radius */
+  cursor: pointer;
+  font-size: 1.2rem; /* Larger font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.l3-download-pdf-button {
+  background-color: #6c5b7b; /* Dark Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem; /* Larger padding for consistency */
+  border: none;
+  border-radius: 0.5rem; /* Consistent border-radius */
+  cursor: pointer;
+  font-size: 1.2rem; /* Larger font size */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.l3-next-page-button:hover,
+.l3-download-pdf-button:hover {
+  opacity: 0.9;
+}
+
+/* Additional Styling */
+.l3-light-journey img,
+.l3-light-behavior img,
+.l3-seeing-things img {
+  border-radius: 0.5rem; /* Added border-radius to images */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+}
+
+/* Positioning for Buttons */
+.l3-absolute {
+  position: absolute;
+}
+
+.l3-top-4 {
+  top: 1rem;
+}
+
+.l3-left-4 {
+  left: 1rem;
+}
+
+.l3-bottom-4 {
+  bottom: 1rem;
+}
+
+.l3-right-4 {
+  right: 1rem;
+}
+
+.l3-download-pdf-button {
+  background-color: #6c5b7b; /* Dark Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.l3-download-pdf-button:hover {
+  background-color: #5a4c6e; /* Darker Lavender */
+}
+
+.l3-next-page-button {
+  background-color: #9a8c98; /* Medium Lavender */
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.l3-next-page-button:hover {
+  background-color: #7a6b7e; /* Darker Lavender */
+}
+/* Main Container */
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.bg-gradient-to-br {
+  background: linear-gradient(to bottom right, #b3e5fc, #ffffff); /* Light Blue Gradient for Light4 */
+}
+.min-h-screen {
+  min-height: 100vh;
+}
+.relative {
+  position: relative;
+}
+.max-w-screen-lg {
+  max-width: 960px; /* Consistent width */
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.p-4 {
+  padding: 1rem;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2.5rem; /* Larger font size for prominence */
+  font-weight: bold;
+  text-align: center;
+  color: #0277bd; /* Deep Blue for Light4 */
+  margin-bottom: 2rem;
+}
+
+/* Subsection Title */
+.subsection-title {
+  font-size: 2rem; /* Slightly larger for prominence */
+  font-weight: bold;
+  color: #039be5; /* Medium Blue for Light4 */
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* List */
+.list-disc {
+  list-style-type: disc;
+}
+.list-inside {
+  padding-left: 1.5rem;
+}
+
+/* Introduction and Text */
+.introduction {
+  text-align: left;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Space Animation */
+.light4-space-animation-container {
+  width: 100%;
+  height: 350px; /* Adjust height as needed */
+  margin-top: 2rem;
+}
+
+/* Adjusted Animation Container */
+.l4-animation-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Sun */
+.l4-sun {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, #ffeb3b 50%, #fbc02d 100%);
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+/* Earth Orbit */
+.l4-earth-orbit {
+  position: absolute;
+  top: -100%;
+  left: -100%;
+  width: 250px;
+  height: 250px;
+  border: 2px dashed #4fc3f7;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: orbit 10s infinite linear;
+}
+
+/* Earth */
+.l4-earth {
+  position: absolute;
+  top: 2%;
+  left: 20%;
+  width: 40px;
+  height: 40px;
+  background: #039be5;
+  border-radius: 50%;
+  transform: translateX(-50%);
+ 
+}
+
+/* Moon Orbit */
+.l4-moon-orbit {
+  position: absolute;
+  top: -60%;
+  left: -60%;
+  width: 90px;
+  height: 90px;
+  border: 2px dashed #90a4ae;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  animation: orbit 2.5s infinite linear;
+}
+
+/* Moon */
+.l4-moon {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  background: #9e9e9e;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+/* Keyframes for Orbit */
+@keyframes orbit {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Calculation */
+.calculation {
+  margin-top: 2rem;
+  text-align: center;
+}
+.answer-input {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  width: 300px;
+}
+.check-answer-button {
+  background-color: #039be5;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.check-answer-button:hover {
+  background-color: #0277bd;
+}
+
+/* Explanation */
+.explanation {
+  margin-top: 2rem;
+}
+
+/* Space Facts */
+.space-facts {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Questions */
+.questions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Buttons */
+.next-page-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.next-page-button:hover {
+  background-color: #58dbde;
+}
+
+.download-pdf-button {
+  background-color: #1976d2;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.download-pdf-button:hover {
+  background-color: #1565c0;
+}
+.light5-container {
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.content-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title,
+.subsection-title {
+  text-align: center;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.list-disc,
+.list-decimal {
+  margin-left: 1.5em;
+}
+
+.table-fixed {
+  table-layout: fixed;
+  width: 100%;
+}
+
+y .navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.next-page-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.next-page-button:hover {
+  background-color: #45a049;
+}
+
+.animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.mirror {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: #e0e0e0;
+}
+
+.adinda {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reflection {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.animated-title {
+  animation: slideIn 1s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-content {
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+  /* Light6.css */
+
+.l5-figure {
+  text-align: center;
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f0f0f0; /* Adjust background color as needed */
+  border-radius: 0.5rem; /* Adjust border radius as needed */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.l5-figure:hover {
+  transform: scale(0.95); /* Adjust scale factor as needed */
+}
+
+.l5-figure-image {
+  width: 100%; /* Adjust image width as needed */
+  max-width: 100%; /* Ensure image doesn't exceed container width */
+  border-radius: 0.5rem; /* Adjust border radius as needed */
+}
+
+@media (min-width: 768px) {
+  .l5-figure {
+    width: 45%; /* Adjust container width for larger screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .l5-figure {
+    width: 90%; /* Adjust container width for smaller screens */
+  }
+}
+
+.light6-container {
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subsection-title {
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+  color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.introduction, .reflection-content, .image-formation, .types-of-reflection, .law-of-reflection, .questions {
+  margin-bottom: 20px;
+}
+
+.introduction ul, .questions ol {
+  padding-left: 20px;
+}
+
+.animation-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #eaf4f4;
+  border: 2px solid #b0e0e6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.refraction-animation-container .incident-ray {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #ff6347;
+  transform: rotate(-30deg);
+  top: 50%;
+  left: 10%;
+}
+
+.refraction-animation-container .refracted-ray {
+  position: absolute;
+  width: 100px;
+  height: 2px;
+  background: #4682b4;
+  transform: rotate(30deg);
+  top: 50%;
+  left: 60%;
+}
+
+.refraction-animation-container .boundary {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #2e8b57;
+  top: 50%;
+  left: 0;
+}
+
+.refraction-animation-container .normal {
+  position: absolute;
+  width: 2px;
+  height: 60px;
+  background: #d3d3d3;
+  left: 50%;
+  top: 50%;
+}
+
+.download-pdf-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-pdf-button {
+  background: #1e90ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-pdf-button:hover {
+  background: #1c86ee;
+}
+
+.next-page-button {
+  background: #35d7e6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.next-page-button:hover {
+  background: #35d7e6;
+}
+
+
+/* Light6.css */
+
+.l6-figure {
+text-align: center;
+margin: 1rem;
+padding: 0.5rem;
+background-color: #f0f0f0; /* Adjust background color as needed */
+border-radius: 0.5rem; /* Adjust border radius as needed */
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.l6-figure:hover {
+transform: scale(0.95); /* Adjust scale factor as needed */
+}
+
+.l6-figure-image {
+width: 100%; /* Adjust image width as needed */
+max-width: 100%; /* Ensure image doesn't exceed container width */
+border-radius: 0.5rem; /* Adjust border radius as needed */
+}
+
+@media (min-width: 768px) {
+.l6-figure {
+  width: 45%; /* Adjust container width for larger screens */
+}
+}
+
+@media (max-width: 768px) {
+.l6-figure {
+  width: 90%; /* Adjust container width for smaller screens */
+}
+}
+.light7-container {
+  padding: 20px;
+  background-color: #f0f4f8;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subsection-title {
+  font-size: 1.5rem;
+  font-weight: semi-bold;
+  color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.introduction,
+.rainbows,
+.newton,
+.explanation,
+.questions {
+  margin-bottom: 20px;
+}
+
+.animation-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background: #eaf4f4;
+  border: 2px solid #b0e0e6;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.prism {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 100px;
+  background: #8e44ad;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.incident-light-ray,
+.spectrum-light-ray,
+.sunlight {
+  position: absolute;
+  background: #f1c40f;
+}
+
+.incident-light-ray,
+.spectrum-light-ray {
+  width: 2px;
+  height: 100px;
+}
+
+.incident-light-ray {
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+}
+
+.spectrum-light-ray {
+  right: 50%;
+  top: 0;
+  transform: translateX(50%);
+}
+
+.light-ray-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 30px;
+  background: #fff;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red,
+.orange,
+.yellow,
+.green,
+.blue,
+.indigo,
+.violet {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+
+.orange {
+  background: orange;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
+
+.indigo {
+  background: indigo;
+}
+
+.violet {
+  background: violet;
+}
+
+.raindrop {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 120px;
+  background: #8e44ad;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.sunlight {
+  width: 4px;
+  height: 80px;
+  background: #f1c40f;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.spectrum {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transform-origin: top;
+}
+
+.recombined-white-light {
+  width: 40px;
+  height: 80px;
+  background: #fff;
+  border-radius: 5px;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first-prism,
+.second-prism {
+  position: absolute;
+  width: 60px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #8e44ad;
+  border-radius: 5px;
+}
+
+.white-light-ray {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 100px;
+  background: #fff;
+}
+
+.spectrum-light-ray {
+  width: 2px;
+  height: 100px;
+  background: #f1c40f;
+}
+
+.download-pdf-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-pdf-button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.download-pdf-button:hover {
+  background-color: #2980b9;
+}
+
+.next-page-button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.next-page-button:hover {
+  background-color: #219d54;
+}
+
+/* Add styles specific to Light8 here */
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.subsection-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.introduction,
+.waves-particles,
+.observations-comparison,
+.explanation-acceptance,
+.questions,
+.extension {
+  margin-bottom: 2rem;
+}
+
+.observations-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.observations-table th,
+.observations-table td {
+  border: 1px solid #000;
+  padding: 0.5rem;
+}
+
+.download-pdf-button-container,
+.next-page-button-container {
+  margin-top: 2rem;
+}
+
+.download-pdf-button,
+.next-page-button {
+  padding: 1rem 2rem;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.download-pdf-button:hover,
+.next-page-button:hover {
+  background-color: #45a049;
+}
