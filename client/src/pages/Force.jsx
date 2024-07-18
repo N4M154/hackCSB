@@ -570,14 +570,7 @@ export default function Arrays() {
         </ul>
       </div>
 
-      <div className="mt-4">
-        <button
-          className="bg-teal-800 text-white px-4 py-2 rounded-md"
-          onClick={downloadPDF}
-        >
-          Download PDF
-        </button>
-      </div>
+      
 
       <div className="mt-4 flex space-x-4">
         <button
