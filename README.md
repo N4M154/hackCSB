@@ -69,14 +69,14 @@ Users can personalize their learning experience by creating a profile. Ensure yo
     npm install
     ```
 4. Add dotenv file in the root:
-```bash
-MONGO=" "
-JWT_SECRET=" " 
-```
+   ```bash
+   MONGO=" "
+   JWT_SECRET=" " 
+   ```
 5. Add dotenv file in the client folder:
-```bash
-VITE_FIREBASE_API_KEY=" "
-```
+   ```bash
+   VITE_FIREBASE_API_KEY=" "
+   ```
 
 ## Running the Application
 
