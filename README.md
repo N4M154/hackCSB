@@ -97,7 +97,7 @@ Users can personalize their learning experience by creating a profile. Ensure yo
 Checkout our website at: https://hackcsb-3.onrender.com
 
 The demo video:
-[PhysixLab: a website for learning Physics](https://youtu.be/buwS1qOQwRc)
+[PhysixLab: a website for learning Physics](https://youtu.be/AqFP4xtNLvU?feature=shared)
 
 
 
